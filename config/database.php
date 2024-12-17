@@ -85,11 +85,11 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'examen09.postgres.database.azure.com'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'hospital'),
             'username' => env('DB_USERNAME', 'postgres'),
-            'password' => env('DB_PASSWORD', '123456'),
+            'password' => env('DB_PASSWORD', 'Emiliano08'),
             'charset' => env('DB_CHARSET', 'utf8'),
             'prefix' => '',
             'prefix_indexes' => true,
