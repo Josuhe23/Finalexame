@@ -14,6 +14,7 @@ Route::post('/login', [AuthController::class, 'login']);
 
 
 Route::post('/crear_user', [UserController::class, 'store']);
+//Desprotegida pra probuebas
 Route::get('/users', [UserController::class, 'index']);
 //Rutas protegidas por sancturm y autenticacion
 Route::middleware('auth:sanctum')->group(function () {
